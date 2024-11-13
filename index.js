@@ -80,10 +80,19 @@ const allAnimalFood = [...animalFood, newAnimalFood];
 
 console.log(allAnimalFood);
 
-// Spread for concatenating two arrays
+// Concatenating two arrays
 
 const allMyAnimals = [...newAnimals, ...animals];
 
 console.log(allMyAnimals);
 
 console.log(showZooAnimals(...allMyAnimals));
+
+/*
+
+Note:
+
+	•	Rest is on the left side of "=" ↔ Spread is on the right side of "="
+	•	We use Rest in a function declaration ↔ we use Spread in a function call
+
+*/
