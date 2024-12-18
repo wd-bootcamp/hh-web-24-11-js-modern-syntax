@@ -93,6 +93,6 @@ console.log(showZooAnimals(...allMyAnimals));
 Note:
 
 	•	Rest is on the left side of "=" ↔ Spread is on the right side of "="
-	•	We use Rest in a function declaration ↔ we use Spread in a function call
+	•	We use Rest in a function declaration (parameter) ↔ we use Spread in a function call (argument)
 
 */
